@@ -20,7 +20,7 @@ export default function Chart({ labels, label, data, colors, font_color, type,et
         responsive: true,
         plugins: {
             legend: {
-                display: false,
+                display: etiquetas,
                 labels: {
                     display: {etiquetas},
                     color: font_color,
