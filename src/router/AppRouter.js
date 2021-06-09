@@ -1,10 +1,13 @@
-import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import React, { useContext } from "react";
+import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
+import AppContext from "../helpers/context/context.js";
 
 import HomeScreen from "../screens/Home/HomeScreen.js";
 import UserRoutes from "./UserRoutes.js";
 
 export const AppRouter = () => {
+    const { user } = useContext(AppContext);
+    
     return (
         <Router>
             <Switch>
@@ -12,9 +15,9 @@ export const AppRouter = () => {
                     path="/"
                     exact
                 >
-                    <HomeScreen />
+                    { user ? <Redirect to="/difficulties" /> : <HomeScreen />}
                 </Route>
-                <UserRoutes />
+                <UserRoutes user={user}/>
             </Switch>
         </Router>
     );

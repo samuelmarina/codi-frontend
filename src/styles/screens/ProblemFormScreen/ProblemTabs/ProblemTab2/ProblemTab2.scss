@@ -1,0 +1,108 @@
+@media (max-width: 376px) {
+  #TextFieldBox__Tab2 {
+    width: 70vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    #SelectField__Tab2 {
+      width: 200px;
+      color: white;
+      margin-top: 2rem;
+      justify-content: start;
+      text-align: start;
+    }
+  }
+  #CodeEditorBox__Tab2 {
+    width: 72% !important;
+    display: inline-block;
+    margin-right: 0.8rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    justify-content: start;
+    text-align: start;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 426px) {
+  #TextFieldBox__Tab2 {
+    width: 70vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    #SelectField__Tab2 {
+      width: 250px;
+      color: white;
+      margin-top: 2rem;
+      justify-content: start;
+      text-align: start;
+    }
+  }
+
+  #CodeEditorBox__Tab2 {
+    width: 72% !important;
+    display: inline-block;
+    margin-right: 0.8rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    justify-content: start;
+    text-align: start;
+  }
+}
+
+@media (min-width: 427px) and (max-width: 1440px) {
+  #TextFieldBox__Tab2 {
+    width: 70vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    #SelectField__Tab2 {
+      width: 350px;
+      color: white;
+      margin-top: 2rem;
+      justify-content: start;
+      text-align: start;
+    }
+  }
+  #CodeEditorBox__Tab2 {
+    width: 71.5%;
+    display: inline-block;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    justify-content: start;
+    text-align: start;
+  }
+}
+@media (min-width: 1440px) and (max-width: 2558px) {
+  #CodeEditorBox__Tab2 {
+    width: 76.8%;
+    display: inline-block;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    justify-content: start;
+    text-align: start;
+  }
+}
+@media (min-width: 1441px) {
+  #TextFieldBox__Tab2 {
+    width: 70vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    #SelectField {
+      width: 450px;
+      color: white;
+      margin-top: 2rem;
+      justify-content: start;
+      text-align: start;
+    }
+  }
+  #CodeEditorBox__Tab2 {
+    width: 63.8%;
+    display: inline-block;
+    margin-right: 0.8rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    justify-content: start;
+    text-align: start;
+  }
+}

@@ -1,0 +1,379 @@
+@media (max-width: 376px) {
+  #TextFieldBox {
+    width: 70vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    #TitleField {
+      width: 225px;
+      color: white;
+      margin-top: 2rem;
+    }
+    #SelectField {
+      width: 225px;
+      color: white;
+      margin-top: 2rem;
+      justify-content: start;
+      text-align: start;
+    }
+  }
+  #InputLabelDescriptionBox {
+    margin-left: 1.15rem;
+  }
+  #TextAreaLgBox {
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+
+    #TextAreaLg {
+      width: 90%;
+      background-color: #282a36;
+      color: white;
+      font-family: arial;
+      font-size: 18px;
+    }
+  }
+  #CodeEditorBox {
+    width: 95% !important;
+    display: inline-block;
+    margin-left: 1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    justify-content: start;
+    text-align: start;
+  }
+  #InputLabelSolutionBox {
+    margin-bottom: 1rem;
+    #InputLabelSolution {
+      margin-left: 1.2rem;
+    }
+  }
+  .TextArea {
+    background-color: #282a36;
+    width: 91%;
+    color: white;
+    font-family: arial;
+    font-size: 18px;
+    margin-left: 1.3rem;
+    margin-right: 0.5rem;
+  }
+}
+@media (min-width: 376px) and (max-width: 426px) {
+  #TextFieldBox {
+    width: 70vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    #TitleField {
+      width: 270px;
+      color: white;
+      margin-top: 2rem;
+    }
+    #SelectField {
+      width: 250px;
+      color: white;
+      margin-top: 2rem;
+      justify-content: start;
+      text-align: start;
+    }
+  }
+
+  #InputLabelDescription {
+    margin-left: 1.5rem;
+  }
+  #TextAreaLgBox {
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    #TextAreaLg {
+      width: 70%;
+      background-color: #282a36;
+      color: white;
+      font-family: arial;
+      font-size: 18px;
+    }
+  }
+  #CodeEditorBox {
+    width: 95% !important;
+    display: inline-block;
+    margin-left: 1.4rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    justify-content: start;
+    text-align: start;
+  }
+  #InputLabelSolutionBox {
+    margin-bottom: 1rem;
+    #InputLabelSolution {
+      margin-left: 1.2rem;
+    }
+  }
+  .TextArea {
+    background-color: #282a36;
+    width: 92.5%;
+    color: white;
+    font-family: arial;
+    font-size: 18px;
+    margin-left: 1.28rem;
+    margin-right: 0.5rem;
+  }
+  #TextAreaLgBox {
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    #TextAreaLg {
+      width: 65vh;
+      background-color: #282a36;
+      color: white;
+      font-family: arial;
+      font-size: 18px;
+    }
+  }
+}
+
+@media (min-width: 427px) and (max-width: 768px) {
+  #TextFieldBox {
+    width: 90vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    #TitleField {
+      width: 250px;
+      color: white;
+    }
+    #SelectField {
+      width: 250px;
+      color: white;
+      justify-content: start;
+      text-align: start;
+    }
+  }
+  #InputLabelDescription {
+    margin-left: 3.2rem;
+  }
+  #TextAreaLgBox {
+    padding: 1rem;
+    margin-top: 2rem;
+    #TextAreaLg {
+      height: 160px !important;
+      width: 90vh;
+      background-color: #282a36;
+      color: white;
+      font-family: arial;
+      font-size: 18px;
+    }
+  }
+  #InputLabelSolutionBox {
+    margin-bottom: 1rem;
+  }
+  #CodeEditorBox {
+    margin-left: 0.2rem;
+    width: 101% !important;
+    display: inline-block;
+    margin-top: 2rem;
+    justify-content: start !important;
+    text-align: start !important;
+  }
+
+  .TextArea {
+    background-color: #282a36;
+    width: 100%;
+    color: white;
+    font-family: arial;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1438px) {
+  body {
+    text-align: center;
+  }
+  #TextFieldBox {
+    width: 100%;
+    text-align: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+    #TitleField {
+      width: 250px;
+      color: white;
+      margin-top: 3rem;
+    }
+    #SelectField {
+      width: 250px !important;
+      color: white;
+      margin-top: 3rem !important;
+      justify-content: start;
+      text-align: start;
+    }
+  }
+
+  #TextAreaLgBox {
+    padding: 1rem;
+    margin-top: 3rem;
+    width: 81%;
+    margin-left: auto;
+    margin-right: auto;
+    #TextAreaLg {
+      background-color: #282a36;
+      color: white;
+      font-family: arial;
+      font-size: 18px;
+    }
+  }
+  #InputLabelDescriptionBox {
+    margin-left: 5.2rem;
+  }
+  #InputLabelSolutionBox {
+    height: 20px;
+    margin-left: 5.7rem;
+    width: 150px !important;
+    #InputLabelSolution {
+      padding-top: 1.3rem;
+    }
+  }
+  #CodeEditorBox {
+    width: 40.5% !important;
+    display: inline-block;
+    margin-left: 1.7rem;
+    margin-bottom: 2rem;
+    justify-content: start !important;
+    text-align: start !important;
+  }
+
+  .TextArea {
+    height: 291px !important;
+    background-color: #282a36;
+    width: 41.2% !important;
+    color: white;
+    font-family: "arial";
+    font-size: 18px;
+    margin-left: 0.5rem;
+    margin-right: 0.2rem;
+  }
+}
+
+@media (min-width: 1439px) and (max-width: 2558px) {
+  body {
+    text-align: center;
+  }
+  #TextFieldBox {
+    width: 90vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    #TitleField {
+      width: 400px;
+      color: white;
+      margin-top: 3rem;
+    }
+    #SelectField {
+      width: 400px;
+      color: white;
+      margin-top: 3rem !important;
+      justify-content: start;
+      text-align: start;
+    }
+  }
+  #InputLabelDescription {
+    margin-left: 10rem;
+  }
+  #TextAreaLgBox {
+    padding: 1rem;
+    margin-top: 3rem;
+    #TextAreaLg {
+      width: 77% !important;
+      background-color: #282a36;
+      color: white;
+      font-family: arial;
+      font-size: 18px;
+    }
+  }
+  #CodeEditorBox {
+    width: 44% !important;
+    display: inline-block;
+    margin-left: 2.9rem;
+    justify-content: start !important;
+    text-align: start !important;
+  }
+  #InputLabelSolutionBox {
+    height: 20px;
+    #InputLabelSolution {
+      padding-top: 2rem;
+      margin-left: 2.8rem;
+    }
+  }
+  .TextArea {
+    height: 291px !important;
+    background-color: #282a36;
+    width: 44%;
+    color: white;
+    font-family: "arial";
+    font-size: "18px";
+    margin-left: 0.4rem;
+    margin-top: 3rem;
+  }
+}
+
+@media (min-width: 2559px) {
+  body {
+    text-align: center;
+  }
+  #TextFieldBox {
+    width: 90vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    #TitleField {
+      width: 720px;
+      color: white;
+    }
+    #SelectField {
+      width: 720px;
+      color: white;
+      margin-left: 1rem;
+      justify-content: start;
+      text-align: start;
+    }
+  }
+  #InputLabelDescription {
+    margin-left: 28.8rem;
+  }
+  #TextAreaLgBox {
+    padding: 1rem;
+    margin-top: 3rem;
+    #TextAreaLg {
+      width: 63% !important;
+      background-color: #282a36;
+      color: white;
+      font-family: arial;
+      font-size: 18px;
+    }
+  }
+  #CodeEditorBox {
+    width: 37% !important;
+    display: inline-block;
+    margin-left: 2.5rem;
+    justify-content: start !important;
+    text-align: start !important;
+  }
+  #InputLabelSolutionBox {
+    height: 20px;
+    #InputLabelSolution {
+      padding-top: 2.1rem;
+      margin-left: 15.5rem;
+    }
+  }
+  .TextArea {
+    height: 291px !important;
+    background-color: #282a36;
+    width: 37%;
+    color: white;
+    font-family: arial;
+    font-size: 18px;
+    margin-left: 0.5rem;
+    margin-top: 3rem;
+  }
+}
