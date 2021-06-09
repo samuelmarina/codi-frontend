@@ -9,6 +9,7 @@ import ProblemsScreen from "../screens/Problems/ProblemsScreen";
 import ProfileScreen from "../screens/Profile/ProfileScreen";
 import PaymentSuccessScreen from "../screens/Payment_Success/PaymentSuccessScreen";
 import Page404 from "../screens/404/404";
+import ToditoScreen from "../screens/Todito/ToditoScreen";
 import AdminRoute from "./AdminRoute";
 import ProblemFormScreen from  "../screens/ProblemForm/ProblemFormScreen";
 
@@ -41,6 +42,12 @@ export const UserRoutes = () => {
                     path="/payment_success"
                 >
                     <PaymentSuccessScreen />
+                </PrivateRoute>
+
+                <PrivateRoute 
+                    path="/todito"
+                >
+                    <ToditoScreen />
                 </PrivateRoute>
 
                 <AdminRoute 
