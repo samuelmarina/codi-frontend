@@ -10,11 +10,12 @@ export default function Toditocreen({ x, ...props }) {
     return (
         <Box className={classes.container}>
             <Todito 
-                type="description" 
+                type="solution" 
                 id={51} 
                 title="N-Reinas" 
                 difficulty="Difícil" 
                 colorDifficulty="#E75656"
+                solution="print('hello')"
                 description="El rompecabezas de las n-reinas es un problema de colocar n reinas en un tablero de ajedrez de tamaño nxn, de tal manera de que no existan dos reinas que se puedan atacar una a otra. Dado un entero n, retorne todas las posibles soluciones al problema de las n-reinas."
             />
         </Box>
