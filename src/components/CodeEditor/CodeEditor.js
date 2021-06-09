@@ -9,7 +9,8 @@ import { Controlled as ControlledEditor } from 'react-codemirror2';
 export default function CodeEditor({
     onChange,
     value,
-    language
+    language,
+    readOnly = false
 }) {
     
     const handleChange = (editor, data, value) => {
@@ -25,7 +26,8 @@ export default function CodeEditor({
                 lint: true,
                 mode: language,
                 lineNumbers: true,
-                theme: 'material'
+                theme: 'material',
+                readOnly: readOnly
             }}
         />
     )
