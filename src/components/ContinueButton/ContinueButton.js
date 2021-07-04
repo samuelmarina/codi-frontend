@@ -19,6 +19,7 @@ const ContinueButton = ({ buttonText, setButtonText, onClick }) => {
                 </div>
             }
             onClick={onClick}
+            data-testid="continueButton"
         >
             {buttonText}
         </Button>
