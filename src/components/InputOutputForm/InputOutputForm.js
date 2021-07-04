@@ -99,15 +99,17 @@ const InputOutputForm = () => {
                 md={12}
                 lg={12}
                 spacing={0}
+                item={true}
             >
                 <Paper className={classes.paperContainer}>
                     <Grid
-                        classsName={classes.backgroundColorContainer}
+                        className={classes.backgroundColorContainer}
                         direction="row"
                         justify="center"
                         alignItems="center"
                         container
                         spacing={0}
+                        item={true}
                     >
                         <Grid
                             container
@@ -119,6 +121,7 @@ const InputOutputForm = () => {
                             md={12}
                             lg={8}
                             spacing={0}
+                            item={true}
                         >
                             <React.Fragment>
                                 <Grid item={true} xs={12} md={1} lg={2} xl={1}>
@@ -135,6 +138,7 @@ const InputOutputForm = () => {
                                         name="input"
                                         onChange={onChange}
                                         value={input}
+                                        data-testid="inputField"
                                     ></TextField>
                                 </Grid>
                                 <Grid item={true} xs={12} md={1} lg={2} xl={1}>
