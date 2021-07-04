@@ -4,7 +4,7 @@ import userEvent from "@testing-library/user-event";
 import Form from "./InputOutputForm";
 import Context from "../../helpers/context/context";
 
-describe("Component", () => {
+describe("<InputOutputForm />", () => {
     const setProblemInfo = jest.fn();
     const problemInfo = "";
 
