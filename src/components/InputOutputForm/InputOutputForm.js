@@ -132,9 +132,9 @@ const InputOutputForm = () => {
                                 <Grid item={true} xs={8} md={3} lg={4} xl={3}>
                                     <TextField
                                         className={`
-                      ${classes.whiteTheme} 
-                      ${classes.TextField__Tab3}
-                    `}
+                                            ${classes.whiteTheme} 
+                                            ${classes.TextField__Tab3}
+                                        `}
                                         name="input"
                                         onChange={onChange}
                                         value={input}
@@ -149,9 +149,9 @@ const InputOutputForm = () => {
                                 <Grid item={true} xs={8} md={3} lg={4} xl={3}>
                                     <TextField
                                         className={`
-                      ${classes.whiteTheme} 
-                      ${classes.TextField__Tab3}
-                    `}
+                                            ${classes.whiteTheme} 
+                                            ${classes.TextField__Tab3}
+                                        `}
                                         name="output"
                                         onChange={onChange}
                                         value={output}
@@ -160,9 +160,9 @@ const InputOutputForm = () => {
                                 <Grid item={true} xs={8} md={2} lg={3} xl={2}>
                                     <Paper
                                         className={`
-                      ${classes.paper}
-                      ${classes.itemStles}
-                    `}
+                                            ${classes.paper}
+                                            ${classes.itemStles}
+                                        `}
                                     >
                                         <InputOutputAddButton />
                                     </Paper>
