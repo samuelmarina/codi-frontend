@@ -15,7 +15,8 @@ export default function DifficultyBox({
 
     return (
         <Grid item xs={12} md={6} lg={4}
-            onClick={() => history.push("/problems?difficulty="+difficulty)}
+            onClick={() => history.push("/problems?difficulty=" + difficulty)}
+            data-testid="difficultyGrid"
         >
             <div className={classes.box}>
                 <h1 className={classes.title}>{title}</h1>
